@@ -1,0 +1,31 @@
+
+.footer__copyright {
+    justify-self: end;
+    text-align: right;
+    padding: 0px;
+    margin: 0px; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  color: #FFFFFF;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer__copyright {
+      margin: 16px 0 0;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  } /*extra*/
+  
+  @media screen and (max-width: 320px) {
+    .footer__copyright {
+      margin: 16px 0 0;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+  
+  

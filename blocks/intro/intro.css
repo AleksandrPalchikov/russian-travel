@@ -1,0 +1,40 @@
+
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+
+
+
+.intro {
+    max-width: 690px;
+    max-height: 428px;
+    padding: 0 100px 92px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    @media screen and (max-width: 1024px) {
+      .intro {
+        padding: 0 48px 92px;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      .intro {
+        padding: 0 24px 88px;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .intro {
+       padding: 0 16px 64px;
+      }
+    } /*extra*/
+    
+    @media screen and (max-width: 320px) {
+      .intro {
+       max-width: 288px;
+       max-height: 752px;
+       padding: 0 16px 64px;
+      }
+    }

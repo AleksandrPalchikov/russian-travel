@@ -1,0 +1,19 @@
+.places__link {
+    padding: 0px;
+    margin: 0px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-align: left;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    }
+    
+    .places__link:hover {
+      opacity: 0.6;
+    }
