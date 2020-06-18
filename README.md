@@ -7,3 +7,7 @@
 * CSS, HTML
 * Figma
 * BEM
+
+Project's Link:
+
+https://aleksandrpalchikov.github.io/russian-travel/index.html
