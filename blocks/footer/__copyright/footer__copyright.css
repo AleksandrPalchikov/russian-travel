@@ -1,9 +1,9 @@
 
 .footer__copyright {
-    justify-self: end;
-    text-align: right;
-    padding: 0px;
-    margin: 0px; 
+  justify-self: end;
+  text-align: right;
+  padding: 0px;
+  margin: 0px; 
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -14,7 +14,7 @@
   
   @media screen and (max-width: 600px) {
     .footer__copyright {
-      margin: 16px 0 0;
+      margin: 48px 0 0;
       font-size: 14px;
       line-height: 14px;
     }
@@ -22,9 +22,6 @@
   
   @media screen and (max-width: 320px) {
     .footer__copyright {
-      margin: 16px 0 0;
-      font-size: 14px;
-      line-height: 14px;
     }
   }
   

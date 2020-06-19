@@ -3,10 +3,12 @@
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 
-
 .footer {
     margin: 0;
     padding: 92px 0 24px;
+    display: grid;
+    grid-template-columns: min-content minmax(max-content, auto);
+    align-items: center;
     }
     
     @media screen and (max-width: 1024px) {
@@ -17,13 +19,19 @@
     
     @media screen and (max-width: 768px) {
       .footer{
-        max-width: 720px;
         padding: 88px 24px 24px;
       }
     }
+
+    @media screen and (max-width: 600px) {
+      .footer{
+        grid-template-columns: max-content;
+      }
+    } /*extra*/
     
     @media screen and (max-width: 320px) {
       .footer {
         padding: 64px 16px 24px;
+        grid-template-columns: max-content;
       }
     }

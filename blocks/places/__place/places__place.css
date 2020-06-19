@@ -30,7 +30,6 @@
     .places__place {
       margin-bottom: 72px;
       column-gap: 28px;
-      row-gap: 48px;
     }
   }
   
@@ -49,12 +48,5 @@
   
   @media screen and (max-width: 320px) {
     .places__place {
-      max-width: 100%;
-      row-gap: 32px;
-      margin-bottom: 48px;
-      grid-template-areas:
-      "title"
-      "img"
-      "text";
     }
   }

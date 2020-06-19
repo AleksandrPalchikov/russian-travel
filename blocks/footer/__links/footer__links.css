@@ -7,7 +7,7 @@
     grid-template-columns: repeat(5, min-content) minmax(min-content, auto);
     align-items: center;
     text-align: left;
-  
+
   }
   
   @media screen and (max-width: 600px) {
@@ -21,10 +21,6 @@
   
   @media screen and (max-width: 320px) {
     .footer__links {
-      font-size: 24px;
-      line-height: 24px;
-      grid-template-columns: max-content;
-      row-gap: 32px;
-      
     }
   }
+

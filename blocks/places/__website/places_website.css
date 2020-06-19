@@ -5,23 +5,22 @@
     align-self: end;
   }
   
-  @media screen and (max-width: 480px) {
-    .places__website {
-    display: none;
-    align-self: end;
-    align-items: end;
-    }
-  } /* extra */
-  
   @media screen and (max-width: 600px) {
     .places__website {
     display: none;
     }
   } /*extra*/
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 480px) {
     .places__website {
     display: none;
+    align-items: end;
+    }
+  } /* extra */
+  
+  
+  @media screen and (max-width: 320px) {
+    .places__website {
     }
   }
   
