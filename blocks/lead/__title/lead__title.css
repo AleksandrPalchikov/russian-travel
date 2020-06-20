@@ -1,7 +1,6 @@
 .lead__title {
     max-width: 720px;
     margin: 0 auto 32px;
-    padding: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -9,6 +8,8 @@
     /* or 104% */
     text-align: center;
     color: #FFFFFF;
+    justify-self: center;
+    text-rendering: optimizeLegibility;
   }
   
   @media screen and (max-width: 1024px) {

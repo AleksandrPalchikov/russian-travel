@@ -1,7 +1,6 @@
 
 .lead__subtitle {
     max-width: 640px;
-    padding: 0;
     margin: 0 auto 64px;
     font-style: normal;
     font-weight: normal;
@@ -10,6 +9,7 @@
     /* or 120% */
     text-align: center;
     color: #FFFFFF;
+    justify-self: center;
   }
   
   @media screen and (max-width: 1024px) {

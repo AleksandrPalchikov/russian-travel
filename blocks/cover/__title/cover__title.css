@@ -1,7 +1,7 @@
 .cover__title {
-    padding: 245px 0 32px;
-    margin: 0 auto;
-    max-width: 560px;
+  padding: 245px 0 32px;
+  margin: 0 auto;
+  max-width: 560px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -9,7 +9,8 @@
   /* or 106% */
   text-align: center;
   color: #FFFFFF;
-  z-index: 3;
+  text-rendering: optimizeLegibility;
+  z-index: 2;
   }
   
   @media screen and (max-width: 1024px) {

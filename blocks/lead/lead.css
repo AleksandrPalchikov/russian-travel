@@ -3,13 +3,18 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
+@import url(./__figure/lead__figure.css);
+
 
 
 .lead {
     display: flex;
     flex-direction: column;
     padding: 0 100px 92px;
-    margin: 0 auto;
+    margin: 0;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
   }
   
   @media screen and (max-width: 1024px) {
