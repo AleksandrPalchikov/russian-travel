@@ -22,14 +22,14 @@
     top: 0;
     left: 0;
     background-color: #2A2C2F;
-    opacity: 0.35;
+    opacity: 0.3;
     transition: opacity 0.3s ease-in-out;
     z-index: -1 ;
   }
 
 
   .cover__link:hover:before {
-    opacity: 0.75;
+    opacity: 0.8;
     z-index: -1;
     }
   
