@@ -20,10 +20,6 @@
       }
     } /*extra*/
     
-    @media screen and (max-width: 320px) {
-      .footer__link {
-      }
-    }
     
     .footer__link:nth-of-type(5) {
       margin: 0px;

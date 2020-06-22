@@ -3,7 +3,6 @@
     max-width: 1280px;
     min-width: 320px;
     padding: 0 48px 0; 
-   /* padding: 0 48px 0;*/
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -14,19 +13,9 @@
   
   @media screen and (max-width: 1024px) {
     .page__content {
-      padding: 0 0px 0;
+      padding-right: 0;
+      padding-left: 0;
     }
   }
-  
-  @media screen and (max-width: 768px) {
-    .page__content {
-      padding: 0 0px 0;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .page__content {
-      padding: 0 0px 0;
-    }
-  }
-  
+
+  /*"Спасибо за ревью, Ольга. Замылились уже глаза, не вижу глупые ошибки. Все медиа запросы не могу удалить на 1024px padding-right/left; должен остаться, иначе полетит верстка" */
